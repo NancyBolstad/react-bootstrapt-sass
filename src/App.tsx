@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import './App.scss';
 import ControledCarousel from '../src/components/Carousel/Carousel';
 import Button from '../src/components/Buttons/Button';
 
