@@ -1,7 +1,10 @@
 import { storiesOf } from '@storybook/react';
 import * as React from 'react';
-import Button from './Button';
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.css';
 
-storiesOf('Button', module)
-  .add('with text', () => <Button>Hello Button</Button>)
-  .add('with some emoji', () => <Button>😀 😎 👍 💯</Button>);
+storiesOf('Button', module).add('with text', () => (
+  <Button variant="dark" size="lg">
+    Hello Button
+  </Button>
+));
